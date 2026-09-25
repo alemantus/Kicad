@@ -1,0 +1,158 @@
+(footprint "Buzzer_D30mm_H20mm_p15mm_668-1204-ND_AI-3035-TWT-3V-R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "BZ**"
+		(at -17.5 -16 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "08d1b3e6-3987-4552-9fcf-3f8eb4401964")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Buzzer_D30mm_H20mm_p15mm_668-1204-ND_AI-3035-TWT-3V-R"
+		(at 0 20 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b26cc3fa-5d6b-4b3c-b891-617a8d32f4ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06880702-a04b-4d41-9fc2-49fd1491bfcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "212e0d20-297b-4e7d-9535-11729e73a0cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end -15.3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5ae8fea5-ab96-4953-bae9-e324b91d66c7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end -15.5 -0.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9c485fa1-00bf-459b-9d3a-36bdd281d674")
+	)
+	(fp_circle
+		(center 0 0)
+		(end -15 -0.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f824627a-b60f-4640-b772-f57185531522")
+	)
+	(fp_text user "+"
+		(at -6.7 1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4ab88389-8993-46e4-9929-598a05ee3563")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -2.5 1.5 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "abf4cc43-e828-4464-84f8-201205a6636c")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 22 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3fd84057-8048-41e0-9803-c8d42d1dbbbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -7.5 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a47c14e-a92f-48f2-ac2d-2a629cad9223")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f0642444-5b69-405b-ad21-23b27f1e1fb1")
+	)
+	(embedded_fonts no)
+	(model "/home/alexander/Documents/KiCad Tools/3D Models/ai-3035-twt-3v-r.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
